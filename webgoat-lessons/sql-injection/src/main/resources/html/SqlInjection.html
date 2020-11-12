@@ -16,12 +16,11 @@
         <form class="attack-form" accept-charset="UNKNOWN"
               method="POST" name="form"
               action="/WebGoat/SqlInjection/attack2"
-              enctype="application/json;charset=UTF-8"
               autocomplete="off">
             <table>
                 <tr>
                     <td><label>SQL query</label></td>
-                    <td><input name="query" value="" type="TEXT" placeholder="SQL query"/></td>
+                    <td width="100%"><input class="form-control" name="query" value="" type="TEXT" placeholder="SQL query"/></td>
                 </tr>
                 <tr>
                     <td><button type="SUBMIT">Submit</button></td>
@@ -41,12 +40,11 @@
         <form class="attack-form" accept-charset="UNKNOWN"
               method="POST" name="form"
               action="/WebGoat/SqlInjection/attack3"
-              enctype="application/json;charset=UTF-8"
               autocomplete="off">
             <table>
                 <tr>
                     <td><label>SQL query</label></td>
-                    <td><input name="query" value="" type="TEXT" placeholder="SQL query"/></td>
+                    <td width="100%"><input class="form-control" name="query" value="" type="TEXT" placeholder="SQL query"/></td>
                 </tr>
                 <tr>
                     <td><button type="SUBMIT">Submit</button></td>
@@ -66,12 +64,11 @@
         <form class="attack-form" accept-charset="UNKNOWN"
               method="POST" name="form"
               action="/WebGoat/SqlInjection/attack4"
-              enctype="application/json;charset=UTF-8"
               autocomplete="off">
             <table>
                 <tr>
                     <td><label>SQL query</label></td>
-                    <td><input name="query" value="" type="TEXT" placeholder="SQL query"/></td>
+                    <td width="100%"><input class="form-control" name="query" value="" type="TEXT" placeholder="SQL query"/></td>
                 </tr>
                 <tr>
                     <td><button type="SUBMIT">Submit</button></td>
@@ -91,12 +88,11 @@
         <form class="attack-form" accept-charset="UNKNOWN"
               method="POST" name="form"
               action="/WebGoat/SqlInjection/attack5"
-              enctype="application/json;charset=UTF-8"
               autocomplete="off">
             <table>
                 <tr>
                     <td><label>SQL query</label></td>
-                    <td><input name="query" value="" type="TEXT" placeholder="SQL query"/></td>
+                    <td width="100%"><input class="form-control" name="query" value="" type="TEXT" placeholder="SQL query"/></td>
                 </tr>
                 <tr>
                     <td><button type="SUBMIT">Submit</button></td>
@@ -147,16 +143,16 @@
         <div class="assignment-success"><i class="fa fa-2 fa-check hidden" aria-hidden="true"></i></div>
         <form class="attack-form" accept-charset="UNKNOWN"
               method="POST" name="form"
-              action="/WebGoat/SqlInjection/assignment5a"
-              enctype="application/json;charset=UTF-8">
+              action="/WebGoat/SqlInjection/assignment5a">
             <table>
                 <tr>
-                    <td>SELECT * FROM users_data FIRST_NAME = 'John' and Last_NAME = '</td>
+                    <td>SELECT * FROM user_data WHERE first_name = 'John' AND last_name = '</td>
                     <td><select name="account">
                         <option>Smith</option>
                         <option>'Smith</option>
                         <option>'</option>
                         <option>'Smith'</option>
+                        <option>Smith'</option>
                     </select></td>
                     <td>
                         <select name="operator">
@@ -175,6 +171,7 @@
                             <option>Last_Name = 'Smith</option>
                         </select>
                     </td>
+                    <td>'</td>
                     <td><input
                             name="Get Account Info" value="Get Account Info" type="SUBMIT"/></td>
                 </tr>
@@ -191,8 +188,7 @@
         <div class="assignment-success"><i class="fa fa-2 fa-check hidden" aria-hidden="true"></i></div>
         <form class="attack-form" accept-charset="UNKNOWN"
               method="POST" name="form"
-              action="/WebGoat/SqlInjection/assignment5b"
-              enctype="application/json;charset=UTF-8">
+              action="/WebGoat/SqlInjection/assignment5b">
             <table>
                 <tr>
                     <td>Login_Count:</td>
@@ -221,7 +217,6 @@
         <form class="attack-form" accept-charset="UNKNOWN"
               method="POST" name="form"
               action="/WebGoat/SqlInjection/attack8"
-              enctype="application/json;charset=UTF-8"
               autocomplete="off">
             <table>
                 <tr>
@@ -250,7 +245,6 @@
         <form class="attack-form" accept-charset="UNKNOWN"
               method="POST" name="form"
               action="/WebGoat/SqlInjection/attack9"
-              enctype="application/json;charset=UTF-8"
               autocomplete="off">
             <table>
                 <tr>
@@ -280,7 +274,6 @@
         <form class="attack-form" accept-charset="UNKNOWN"
               method="POST" name="form"
               action="/WebGoat/SqlInjection/attack10"
-              enctype="application/json;charset=UTF-8"
               autocomplete="off">
             <table>
                 <tr>
